@@ -1,0 +1,39 @@
+header{
+    width: 90%;
+font-style: italic;
+text-align: center;
+background-color: black;
+color: white;
+font-size: large;
+
+}
+
+nav{
+    margin: auto;
+    text-align: center;
+    border-color: antiquewhite;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+
+}
+td{
+    border: solid, black;
+    text-align: center;
+}
+
+body{
+    /**FIguring out font sizes here and body format **/
+    background-color: whitesmoke;
+}
+
+footer{
+    
+    font-size: small;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    background-position: bottom;
+    position: relative;
+    bottom: 0;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | 2D cyberpunk platformer attempt</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/lab6.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <nav>
+      <table>
+        <tr>
+          <td><a href="index.html">Home <img src="imgs/Homeicon.jpg" alt="Home icon" width="20" height="20"></a></td>
+          <td><a href="about.html">About  <img src="imgs/AboutIcon.jpg" alt="About icon" width="20" height="20"></a></td>
+          <td><a href="projects.html">Projects <img src="imgs/Projectsicon.jpg" alt="Projects icon" width="20" height="20"></a></td>
+      </tr>
+      </table>
+  </nav>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">2D cyberpunk platformer attempt</div>
+      </div>
+    </div>
+    <footer>
+      <h4>stuff</h4>
+      <p>Footer information</p>
+      <p>Contact info: ky607453@dal.ca or wong.kyle.kh@icloud.com</p>
+      <a href="about.html">About</a>
+  </footer>
+  </body>
+</html>
